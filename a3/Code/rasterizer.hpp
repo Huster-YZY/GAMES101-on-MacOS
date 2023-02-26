@@ -15,6 +15,44 @@ using namespace Eigen;
 
 namespace rst
 {
+    struct SuperSampling{
+        float d[4];
+        void operator =(const SuperSampling& x){
+            d[0]=x.d[0];
+            d[1]=x.d[1];
+            d[2]=x.d[2];
+            d[3]=x.d[3];
+        }
+        SuperSampling(){d[0]=d[1]=d[2]=d[3]=0.0;}
+        SuperSampling(float x,float y,float z,float w){
+            d[0]=x;
+            d[1]=y;
+            d[2]=z;
+            d[3]=w;
+        }
+    };
+    struct ss_color{
+        Eigen::Vector3f d[4];
+        void operator =(const ss_color& x){
+            d[0]=x.d[0];
+            d[1]=x.d[1];
+            d[2]=x.d[2];
+            d[3]=x.d[3];
+        }
+        ss_color(){
+            auto x=Vector3f{0,0,0};
+            d[0]=d[1]=d[2]=d[3]=x;
+        }
+        ss_color(Vector3f a,Vector3f b,Vector3f c,Vector3f k){
+            d[0]=a;
+            d[1]=b;
+            d[2]=c;
+            d[3]=k;
+        }
+        Vector3f average(){
+            return 0.25*d[0]+0.25*d[1]+0.25*d[2]+0.25*d[3];
+        }
+    };
     enum class Buffers
     {
         Color = 1,
@@ -81,7 +119,7 @@ namespace rst
 
         void draw(pos_buf_id pos_buffer, ind_buf_id ind_buffer, col_buf_id col_buffer, Primitive type);
         void draw(std::vector<Triangle *> &TriangleList);
-
+        void flush();
         std::vector<Eigen::Vector3f>& frame_buffer() { return frame_buf; }
 
     private:
@@ -109,7 +147,8 @@ namespace rst
         std::function<Eigen::Vector3f(vertex_shader_payload)> vertex_shader;
 
         std::vector<Eigen::Vector3f> frame_buf;
-        std::vector<float> depth_buf;
+        std::vector<ss_color> ss_buffer;
+        std::vector<SuperSampling> depth_buf;
         int get_index(int x, int y);
 
         int width, height;
