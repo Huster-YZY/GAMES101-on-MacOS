@@ -1,0 +1,64 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "e8e0ea4573a53e9e130226a5e0cf32f785d338b55243705503df34931d676c63"
+    },
+    {
+      "guid" : "e8e0ea4573a53e9e130226a5e0cf32f717f013d0ee4e2fdc15db2a6a42a54f93"
+    },
+    {
+      "guid" : "e8e0ea4573a53e9e130226a5e0cf32f762a9590f0fd155084544967f83a3aa93"
+    }
+  ],
+  "containerPath" : "/Users/YZY/cg101/a/a4/code/build/BezierCurve.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx12.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/YZY/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/YZY/Library/Developer/Xcode/DerivedData/BezierCurve-dodiytmlkgsellfyqbitcdhqpfne/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/YZY/Library/Developer/Xcode/DerivedData/BezierCurve-dodiytmlkgsellfyqbitcdhqpfne/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in BezierCurve, no dependencies
+BezierCurve in BezierCurve, depends on:
+ZERO_CHECK in BezierCurve (explicit)
+ALL_BUILD in BezierCurve, depends on:
+BezierCurve in BezierCurve (explicit)
+ZERO_CHECK in BezierCurve (explicit)

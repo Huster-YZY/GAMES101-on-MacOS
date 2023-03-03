@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		30099FD2C35943568C2402C0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5AD6CE2804EF40B399CFF7A8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				5B1CFB75A6C66D7EDA65D134 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A2B4854ECE744591B84B113E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E56CE7F375724989890F9DE0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				CBF2B9ED74AF0C7AEFD6AF02 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				DA67866E856C4B35BB4E7A9A /* PBXTargetDependency */,
+				F28305C82AE2496395ABA5DD /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B4084C52BA14CDB8EE15F63 /* /Users/YZY/cg101/a/a4/code/main.cpp */ = {isa = PBXBuildFile; fileRef = 50F46DFA24ED45BF9507FA9F /* /Users/YZY/cg101/a/a4/code/main.cpp */; };
+		0EB6B46624264C338203AE07 /* /Users/YZY/cg101/a/a4/code/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A38CCCCE6F1E4E0FBA9B45C4 /* /Users/YZY/cg101/a/a4/code/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		43CAEA7530504ADCB1B37F6D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		96E817FDA3974813A262D8DA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D9A2431A715F418E81E1809E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		F85D22845F7E4782ADF6E65D /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1D615B33B1DD4D51AC7FFC00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AE97CF8D6DF4C02B502E4CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30793425F35A4CA189C471C9;
+			remoteInfo = BezierCurve;
+		};
+		D52D13CD92004F36BC73EAB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AE97CF8D6DF4C02B502E4CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30099FD2C35943568C2402C0;
+			remoteInfo = ZERO_CHECK;
+		};
+		FEFC06D00BD047709D6AFC0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AE97CF8D6DF4C02B502E4CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30099FD2C35943568C2402C0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50F46DFA24ED45BF9507FA9F /* /Users/YZY/cg101/a/a4/code/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		8B045890CF33489BBC6B3B79 /* BezierCurve */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = BezierCurve; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38CCCCE6F1E4E0FBA9B45C4 /* /Users/YZY/cg101/a/a4/code/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FFF8FCFC773D46729F15511E /* /Users/YZY/cg101/a/a4/code/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BBF7624ABBE4FE38E947A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C11E014FDC148F989E21AA1 = {
+			isa = PBXGroup;
+			children = (
+				6E3C4AE3FDD646B0BF79BF0F /* BezierCurve */,
+				58B5736A0F3247AEBF3EA55C /* ALL_BUILD */,
+				421AA84C24BD4FFE804DC0E9 /* Products */,
+				EC4508EBEF384EF2861D6277 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		421AA84C24BD4FFE804DC0E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B045890CF33489BBC6B3B79 /* BezierCurve */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B5736A0F3247AEBF3EA55C /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				900B3C187FF04B608BBEE169 /* CMake Rules */,
+				FFF8FCFC773D46729F15511E /* /Users/YZY/cg101/a/a4/code/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		6E3C4AE3FDD646B0BF79BF0F /* BezierCurve */ = {
+			isa = PBXGroup;
+			children = (
+				9A5AF642DB9846D2816E8F12 /* Source Files */,
+				A38CCCCE6F1E4E0FBA9B45C4 /* /Users/YZY/cg101/a/a4/code/CMakeLists.txt */,
+			);
+			name = BezierCurve;
+			sourceTree = "<group>";
+		};
+		900B3C187FF04B608BBEE169 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9A5AF642DB9846D2816E8F12 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				50F46DFA24ED45BF9507FA9F /* /Users/YZY/cg101/a/a4/code/main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EC4508EBEF384EF2861D6277 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30793425F35A4CA189C471C9 /* BezierCurve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F343BD57A354D39AEE1C56E /* Build configuration list for PBXNativeTarget "BezierCurve" */;
+			buildPhases = (
+				3CBACB79FC094B3EA2E44DB6 /* Sources */,
+				1BBF7624ABBE4FE38E947A49 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				033505251176423D8D94E2F5 /* PBXTargetDependency */,
+			);
+			name = BezierCurve;
+			productName = BezierCurve;
+			productReference = 8B045890CF33489BBC6B3B79 /* BezierCurve */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AE97CF8D6DF4C02B502E4CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1340;
+			};
+			buildConfigurationList = 3120BCCEBAB5484CB768FC77 /* Build configuration list for PBXProject "BezierCurve" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				F85D22845F7E4782ADF6E65D /* Debug */,
+				96E817FDA3974813A262D8DA /* Release */,
+				43CAEA7530504ADCB1B37F6D /* MinSizeRel */,
+				D9A2431A715F418E81E1809E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 1C11E014FDC148F989E21AA1;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				A2B4854ECE744591B84B113E /* ALL_BUILD */,
+				30793425F35A4CA189C471C9 /* BezierCurve */,
+				30099FD2C35943568C2402C0 /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5B1CFB75A6C66D7EDA65D134 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/YZY/cg101/a/a4/code/build/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/YZY/cg101/a/a4/code/build
+  make -f /Users/YZY/cg101/a/a4/code/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/YZY/cg101/a/a4/code/build
+  make -f /Users/YZY/cg101/a/a4/code/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/YZY/cg101/a/a4/code/build
+  make -f /Users/YZY/cg101/a/a4/code/build/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/YZY/cg101/a/a4/code/build
+  make -f /Users/YZY/cg101/a/a4/code/build/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CBF2B9ED74AF0C7AEFD6AF02 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/YZY/cg101/a/a4/code/build/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/YZY/cg101/a/a4/code/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/YZY/cg101/a/a4/code/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/YZY/cg101/a/a4/code/build
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/YZY/cg101/a/a4/code/build
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CBACB79FC094B3EA2E44DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4084C52BA14CDB8EE15F63 /* /Users/YZY/cg101/a/a4/code/main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		033505251176423D8D94E2F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30099FD2C35943568C2402C0 /* ZERO_CHECK */;
+			targetProxy = D52D13CD92004F36BC73EAB9 /* PBXContainerItemProxy */;
+		};
+		DA67866E856C4B35BB4E7A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30793425F35A4CA189C471C9 /* BezierCurve */;
+			targetProxy = 1D615B33B1DD4D51AC7FFC00 /* PBXContainerItemProxy */;
+		};
+		F28305C82AE2496395ABA5DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30099FD2C35943568C2402C0 /* ZERO_CHECK */;
+			targetProxy = FEFC06D00BD047709D6AFC0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F93BE7FFF5A4C2FBEBB550B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2FE1AB8D6DDA4ACD88BD0135 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		33FD0F368A484D62A6E66FD4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		45C298EEEA0C4556A3CD68A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libopencv_gapi.4.6.0.dylib,/usr/local/lib/libopencv_stitching.4.6.0.dylib,/usr/local/lib/libopencv_alphamat.4.6.0.dylib,/usr/local/lib/libopencv_aruco.4.6.0.dylib,/usr/local/lib/libopencv_barcode.4.6.0.dylib,/usr/local/lib/libopencv_bgsegm.4.6.0.dylib,/usr/local/lib/libopencv_bioinspired.4.6.0.dylib,/usr/local/lib/libopencv_ccalib.4.6.0.dylib,/usr/local/lib/libopencv_dnn_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_dnn_superres.4.6.0.dylib,/usr/local/lib/libopencv_dpm.4.6.0.dylib,/usr/local/lib/libopencv_face.4.6.0.dylib,/usr/local/lib/libopencv_freetype.4.6.0.dylib,/usr/local/lib/libopencv_fuzzy.4.6.0.dylib,/usr/local/lib/libopencv_hfs.4.6.0.dylib,/usr/local/lib/libopencv_img_hash.4.6.0.dylib,/usr/local/lib/libopencv_intensity_transform.4.6.0.dylib,/usr/local/lib/libopencv_line_descriptor.4.6.0.dylib,/usr/local/lib/libopencv_mcc.4.6.0.dylib,/usr/local/lib/libopencv_quality.4.6.0.dylib,/usr/local/lib/libopencv_rapid.4.6.0.dylib,/usr/local/lib/libopencv_reg.4.6.0.dylib,/usr/local/lib/libopencv_rgbd.4.6.0.dylib,/usr/local/lib/libopencv_saliency.4.6.0.dylib,/usr/local/lib/libopencv_sfm.4.6.0.dylib,/usr/local/lib/libopencv_stereo.4.6.0.dylib,/usr/local/lib/libopencv_structured_light.4.6.0.dylib,/usr/local/lib/libopencv_superres.4.6.0.dylib,/usr/local/lib/libopencv_surface_matching.4.6.0.dylib,/usr/local/lib/libopencv_tracking.4.6.0.dylib,/usr/local/lib/libopencv_videostab.4.6.0.dylib,/usr/local/lib/libopencv_viz.4.6.0.dylib,/usr/local/lib/libopencv_wechat_qrcode.4.6.0.dylib,/usr/local/lib/libopencv_xfeatures2d.4.6.0.dylib,/usr/local/lib/libopencv_xobjdetect.4.6.0.dylib,/usr/local/lib/libopencv_xphoto.4.6.0.dylib,/usr/local/lib/libopencv_shape.4.6.0.dylib,/usr/local/lib/libopencv_highgui.4.6.0.dylib,/usr/local/lib/libopencv_datasets.4.6.0.dylib,/usr/local/lib/libopencv_plot.4.6.0.dylib,/usr/local/lib/libopencv_text.4.6.0.dylib,/usr/local/lib/libopencv_ml.4.6.0.dylib,/usr/local/lib/libopencv_phase_unwrapping.4.6.0.dylib,/usr/local/lib/libopencv_optflow.4.6.0.dylib,/usr/local/lib/libopencv_ximgproc.4.6.0.dylib,/usr/local/lib/libopencv_video.4.6.0.dylib,/usr/local/lib/libopencv_videoio.4.6.0.dylib,/usr/local/lib/libopencv_imgcodecs.4.6.0.dylib,/usr/local/lib/libopencv_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_calib3d.4.6.0.dylib,/usr/local/lib/libopencv_dnn.4.6.0.dylib,/usr/local/lib/libopencv_features2d.4.6.0.dylib,/usr/local/lib/libopencv_flann.4.6.0.dylib,/usr/local/lib/libopencv_photo.4.6.0.dylib,/usr/local/lib/libopencv_imgproc.4.6.0.dylib,/usr/local/lib/libopencv_core.4.6.0.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = BezierCurve;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.6.0_1/include/opencv4,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6039CB1E930B4A98AD963B42 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libopencv_gapi.4.6.0.dylib,/usr/local/lib/libopencv_stitching.4.6.0.dylib,/usr/local/lib/libopencv_alphamat.4.6.0.dylib,/usr/local/lib/libopencv_aruco.4.6.0.dylib,/usr/local/lib/libopencv_barcode.4.6.0.dylib,/usr/local/lib/libopencv_bgsegm.4.6.0.dylib,/usr/local/lib/libopencv_bioinspired.4.6.0.dylib,/usr/local/lib/libopencv_ccalib.4.6.0.dylib,/usr/local/lib/libopencv_dnn_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_dnn_superres.4.6.0.dylib,/usr/local/lib/libopencv_dpm.4.6.0.dylib,/usr/local/lib/libopencv_face.4.6.0.dylib,/usr/local/lib/libopencv_freetype.4.6.0.dylib,/usr/local/lib/libopencv_fuzzy.4.6.0.dylib,/usr/local/lib/libopencv_hfs.4.6.0.dylib,/usr/local/lib/libopencv_img_hash.4.6.0.dylib,/usr/local/lib/libopencv_intensity_transform.4.6.0.dylib,/usr/local/lib/libopencv_line_descriptor.4.6.0.dylib,/usr/local/lib/libopencv_mcc.4.6.0.dylib,/usr/local/lib/libopencv_quality.4.6.0.dylib,/usr/local/lib/libopencv_rapid.4.6.0.dylib,/usr/local/lib/libopencv_reg.4.6.0.dylib,/usr/local/lib/libopencv_rgbd.4.6.0.dylib,/usr/local/lib/libopencv_saliency.4.6.0.dylib,/usr/local/lib/libopencv_sfm.4.6.0.dylib,/usr/local/lib/libopencv_stereo.4.6.0.dylib,/usr/local/lib/libopencv_structured_light.4.6.0.dylib,/usr/local/lib/libopencv_superres.4.6.0.dylib,/usr/local/lib/libopencv_surface_matching.4.6.0.dylib,/usr/local/lib/libopencv_tracking.4.6.0.dylib,/usr/local/lib/libopencv_videostab.4.6.0.dylib,/usr/local/lib/libopencv_viz.4.6.0.dylib,/usr/local/lib/libopencv_wechat_qrcode.4.6.0.dylib,/usr/local/lib/libopencv_xfeatures2d.4.6.0.dylib,/usr/local/lib/libopencv_xobjdetect.4.6.0.dylib,/usr/local/lib/libopencv_xphoto.4.6.0.dylib,/usr/local/lib/libopencv_shape.4.6.0.dylib,/usr/local/lib/libopencv_highgui.4.6.0.dylib,/usr/local/lib/libopencv_datasets.4.6.0.dylib,/usr/local/lib/libopencv_plot.4.6.0.dylib,/usr/local/lib/libopencv_text.4.6.0.dylib,/usr/local/lib/libopencv_ml.4.6.0.dylib,/usr/local/lib/libopencv_phase_unwrapping.4.6.0.dylib,/usr/local/lib/libopencv_optflow.4.6.0.dylib,/usr/local/lib/libopencv_ximgproc.4.6.0.dylib,/usr/local/lib/libopencv_video.4.6.0.dylib,/usr/local/lib/libopencv_videoio.4.6.0.dylib,/usr/local/lib/libopencv_imgcodecs.4.6.0.dylib,/usr/local/lib/libopencv_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_calib3d.4.6.0.dylib,/usr/local/lib/libopencv_dnn.4.6.0.dylib,/usr/local/lib/libopencv_features2d.4.6.0.dylib,/usr/local/lib/libopencv_flann.4.6.0.dylib,/usr/local/lib/libopencv_photo.4.6.0.dylib,/usr/local/lib/libopencv_imgproc.4.6.0.dylib,/usr/local/lib/libopencv_core.4.6.0.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = BezierCurve;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.6.0_1/include/opencv4,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		6FA2742A14394A99BAA9C6DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build/build;
+			};
+			name = Release;
+		};
+		73003C3C44C747EFA9FA00F1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		73C1E746C830469899FEF5CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		951964D5833944CCAEEB1873 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		9881CA67209149AA9E61C89F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build/build;
+			};
+			name = MinSizeRel;
+		};
+		B450C9C8DAF4437393C6C373 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B4F7D894174D4FA083C2F4D0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BABCB5E3106B4F99B49CF4BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		CBF7DEB13E32470393894265 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libopencv_gapi.4.6.0.dylib,/usr/local/lib/libopencv_stitching.4.6.0.dylib,/usr/local/lib/libopencv_alphamat.4.6.0.dylib,/usr/local/lib/libopencv_aruco.4.6.0.dylib,/usr/local/lib/libopencv_barcode.4.6.0.dylib,/usr/local/lib/libopencv_bgsegm.4.6.0.dylib,/usr/local/lib/libopencv_bioinspired.4.6.0.dylib,/usr/local/lib/libopencv_ccalib.4.6.0.dylib,/usr/local/lib/libopencv_dnn_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_dnn_superres.4.6.0.dylib,/usr/local/lib/libopencv_dpm.4.6.0.dylib,/usr/local/lib/libopencv_face.4.6.0.dylib,/usr/local/lib/libopencv_freetype.4.6.0.dylib,/usr/local/lib/libopencv_fuzzy.4.6.0.dylib,/usr/local/lib/libopencv_hfs.4.6.0.dylib,/usr/local/lib/libopencv_img_hash.4.6.0.dylib,/usr/local/lib/libopencv_intensity_transform.4.6.0.dylib,/usr/local/lib/libopencv_line_descriptor.4.6.0.dylib,/usr/local/lib/libopencv_mcc.4.6.0.dylib,/usr/local/lib/libopencv_quality.4.6.0.dylib,/usr/local/lib/libopencv_rapid.4.6.0.dylib,/usr/local/lib/libopencv_reg.4.6.0.dylib,/usr/local/lib/libopencv_rgbd.4.6.0.dylib,/usr/local/lib/libopencv_saliency.4.6.0.dylib,/usr/local/lib/libopencv_sfm.4.6.0.dylib,/usr/local/lib/libopencv_stereo.4.6.0.dylib,/usr/local/lib/libopencv_structured_light.4.6.0.dylib,/usr/local/lib/libopencv_superres.4.6.0.dylib,/usr/local/lib/libopencv_surface_matching.4.6.0.dylib,/usr/local/lib/libopencv_tracking.4.6.0.dylib,/usr/local/lib/libopencv_videostab.4.6.0.dylib,/usr/local/lib/libopencv_viz.4.6.0.dylib,/usr/local/lib/libopencv_wechat_qrcode.4.6.0.dylib,/usr/local/lib/libopencv_xfeatures2d.4.6.0.dylib,/usr/local/lib/libopencv_xobjdetect.4.6.0.dylib,/usr/local/lib/libopencv_xphoto.4.6.0.dylib,/usr/local/lib/libopencv_shape.4.6.0.dylib,/usr/local/lib/libopencv_highgui.4.6.0.dylib,/usr/local/lib/libopencv_datasets.4.6.0.dylib,/usr/local/lib/libopencv_plot.4.6.0.dylib,/usr/local/lib/libopencv_text.4.6.0.dylib,/usr/local/lib/libopencv_ml.4.6.0.dylib,/usr/local/lib/libopencv_phase_unwrapping.4.6.0.dylib,/usr/local/lib/libopencv_optflow.4.6.0.dylib,/usr/local/lib/libopencv_ximgproc.4.6.0.dylib,/usr/local/lib/libopencv_video.4.6.0.dylib,/usr/local/lib/libopencv_videoio.4.6.0.dylib,/usr/local/lib/libopencv_imgcodecs.4.6.0.dylib,/usr/local/lib/libopencv_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_calib3d.4.6.0.dylib,/usr/local/lib/libopencv_dnn.4.6.0.dylib,/usr/local/lib/libopencv_features2d.4.6.0.dylib,/usr/local/lib/libopencv_flann.4.6.0.dylib,/usr/local/lib/libopencv_photo.4.6.0.dylib,/usr/local/lib/libopencv_imgproc.4.6.0.dylib,/usr/local/lib/libopencv_core.4.6.0.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = BezierCurve;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.6.0_1/include/opencv4,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E48F7D4F85ED4D489D4F728B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				MACOSX_DEPLOYMENT_TARGET = 12.2;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk;
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build/build;
+			};
+			name = Debug;
+		};
+		FF0A410B89E445B38F05106D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/usr/local/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/usr/local/lib/libopencv_gapi.4.6.0.dylib,/usr/local/lib/libopencv_stitching.4.6.0.dylib,/usr/local/lib/libopencv_alphamat.4.6.0.dylib,/usr/local/lib/libopencv_aruco.4.6.0.dylib,/usr/local/lib/libopencv_barcode.4.6.0.dylib,/usr/local/lib/libopencv_bgsegm.4.6.0.dylib,/usr/local/lib/libopencv_bioinspired.4.6.0.dylib,/usr/local/lib/libopencv_ccalib.4.6.0.dylib,/usr/local/lib/libopencv_dnn_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_dnn_superres.4.6.0.dylib,/usr/local/lib/libopencv_dpm.4.6.0.dylib,/usr/local/lib/libopencv_face.4.6.0.dylib,/usr/local/lib/libopencv_freetype.4.6.0.dylib,/usr/local/lib/libopencv_fuzzy.4.6.0.dylib,/usr/local/lib/libopencv_hfs.4.6.0.dylib,/usr/local/lib/libopencv_img_hash.4.6.0.dylib,/usr/local/lib/libopencv_intensity_transform.4.6.0.dylib,/usr/local/lib/libopencv_line_descriptor.4.6.0.dylib,/usr/local/lib/libopencv_mcc.4.6.0.dylib,/usr/local/lib/libopencv_quality.4.6.0.dylib,/usr/local/lib/libopencv_rapid.4.6.0.dylib,/usr/local/lib/libopencv_reg.4.6.0.dylib,/usr/local/lib/libopencv_rgbd.4.6.0.dylib,/usr/local/lib/libopencv_saliency.4.6.0.dylib,/usr/local/lib/libopencv_sfm.4.6.0.dylib,/usr/local/lib/libopencv_stereo.4.6.0.dylib,/usr/local/lib/libopencv_structured_light.4.6.0.dylib,/usr/local/lib/libopencv_superres.4.6.0.dylib,/usr/local/lib/libopencv_surface_matching.4.6.0.dylib,/usr/local/lib/libopencv_tracking.4.6.0.dylib,/usr/local/lib/libopencv_videostab.4.6.0.dylib,/usr/local/lib/libopencv_viz.4.6.0.dylib,/usr/local/lib/libopencv_wechat_qrcode.4.6.0.dylib,/usr/local/lib/libopencv_xfeatures2d.4.6.0.dylib,/usr/local/lib/libopencv_xobjdetect.4.6.0.dylib,/usr/local/lib/libopencv_xphoto.4.6.0.dylib,/usr/local/lib/libopencv_shape.4.6.0.dylib,/usr/local/lib/libopencv_highgui.4.6.0.dylib,/usr/local/lib/libopencv_datasets.4.6.0.dylib,/usr/local/lib/libopencv_plot.4.6.0.dylib,/usr/local/lib/libopencv_text.4.6.0.dylib,/usr/local/lib/libopencv_ml.4.6.0.dylib,/usr/local/lib/libopencv_phase_unwrapping.4.6.0.dylib,/usr/local/lib/libopencv_optflow.4.6.0.dylib,/usr/local/lib/libopencv_ximgproc.4.6.0.dylib,/usr/local/lib/libopencv_video.4.6.0.dylib,/usr/local/lib/libopencv_videoio.4.6.0.dylib,/usr/local/lib/libopencv_imgcodecs.4.6.0.dylib,/usr/local/lib/libopencv_objdetect.4.6.0.dylib,/usr/local/lib/libopencv_calib3d.4.6.0.dylib,/usr/local/lib/libopencv_dnn.4.6.0.dylib,/usr/local/lib/libopencv_features2d.4.6.0.dylib,/usr/local/lib/libopencv_flann.4.6.0.dylib,/usr/local/lib/libopencv_photo.4.6.0.dylib,/usr/local/lib/libopencv_imgproc.4.6.0.dylib,/usr/local/lib/libopencv_core.4.6.0.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = BezierCurve;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/YZY/cg101/a/a4/code/build;
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/Cellar/opencv/4.6.0_1/include/opencv4,"$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3120BCCEBAB5484CB768FC77 /* Build configuration list for PBXProject "BezierCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E48F7D4F85ED4D489D4F728B /* Debug */,
+				6FA2742A14394A99BAA9C6DC /* Release */,
+				9881CA67209149AA9E61C89F /* MinSizeRel */,
+				951964D5833944CCAEEB1873 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4F343BD57A354D39AEE1C56E /* Build configuration list for PBXNativeTarget "BezierCurve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0A410B89E445B38F05106D /* Debug */,
+				45C298EEEA0C4556A3CD68A3 /* Release */,
+				CBF7DEB13E32470393894265 /* MinSizeRel */,
+				6039CB1E930B4A98AD963B42 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5AD6CE2804EF40B399CFF7A8 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F93BE7FFF5A4C2FBEBB550B /* Debug */,
+				BABCB5E3106B4F99B49CF4BC /* Release */,
+				B4F7D894174D4FA083C2F4D0 /* MinSizeRel */,
+				B450C9C8DAF4437393C6C373 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E56CE7F375724989890F9DE0 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FE1AB8D6DDA4ACD88BD0135 /* Debug */,
+				73C1E746C830469899FEF5CF /* Release */,
+				33FD0F368A484D62A6E66FD4 /* MinSizeRel */,
+				73003C3C44C747EFA9FA00F1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AE97CF8D6DF4C02B502E4CB /* Project object */;
+}
