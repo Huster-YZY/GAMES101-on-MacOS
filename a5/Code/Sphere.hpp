@@ -27,7 +27,7 @@ public:
         if (t0 < 0)
             return false;
         tnear = t0;
-
+//        std::cout<<"YZY:TRUE!!!\n";
         return true;
     }
 

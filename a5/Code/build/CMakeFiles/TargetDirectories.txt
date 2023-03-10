@@ -1,0 +1,3 @@
+/Users/YZY/cg101/a/a5/code/build/CMakeFiles/RayTracing.dir
+/Users/YZY/cg101/a/a5/code/build/CMakeFiles/ALL_BUILD.dir
+/Users/YZY/cg101/a/a5/code/build/CMakeFiles/ZERO_CHECK.dir

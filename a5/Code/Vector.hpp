@@ -46,6 +46,7 @@ public:
     {
         return Vector3f(-x, -y, -z);
     }
+
     Vector3f& operator+=(const Vector3f& v)
     {
         x += v.x, y += v.y, z += v.z;

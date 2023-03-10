@@ -4,6 +4,11 @@
 
 #include <cstring>
 
+bool check(float x){
+    if(x>=0&&x<=1)
+        return true;
+    return false;
+}
 bool rayTriangleIntersect(const Vector3f& v0, const Vector3f& v1, const Vector3f& v2, const Vector3f& orig,
                           const Vector3f& dir, float& tnear, float& u, float& v)
 {
@@ -11,6 +16,23 @@ bool rayTriangleIntersect(const Vector3f& v0, const Vector3f& v1, const Vector3f
     // that's specified bt v0, v1 and v2 intersects with the ray (whose
     // origin is *orig* and direction is *dir*)
     // Also don't forget to update tnear, u and v.
+    Vector3f S=orig-v0;
+    Vector3f E1=v1-v0;
+    Vector3f E2=v2-v0;
+    Vector3f S1=crossProduct(dir, E2);
+    Vector3f S2=crossProduct(S,E1);
+    float q=dotProduct(E1,S1);
+    float t=dotProduct(E2,S2)/q;
+    float b1=dotProduct(S, S1)/q;
+    float b2=dotProduct(dir, S2)/q;
+    float w=1-b1-b2;
+    if(t>0&&check(b1)&&check(b2)&&check(w))
+    {
+        tnear=t;
+        u=b1;
+        v=b2;
+        return true;
+    }
     return false;
 }
 
@@ -39,6 +61,7 @@ public:
         bool intersect = false;
         for (uint32_t k = 0; k < numTriangles; ++k)
         {
+//            index the vertices
             const Vector3f& v0 = vertices[vertexIndex[k * 3]];
             const Vector3f& v1 = vertices[vertexIndex[k * 3 + 1]];
             const Vector3f& v2 = vertices[vertexIndex[k * 3 + 2]];
