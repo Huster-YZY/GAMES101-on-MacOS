@@ -32,6 +32,7 @@ Material::Material(MaterialType t, Vector3f c, Vector3f e){
     m_type = t;
     m_color = c;
     m_emission = e;
+    ior=1.5;
 }
 
 MaterialType Material::getType(){return m_type;}
