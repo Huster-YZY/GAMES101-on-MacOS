@@ -8,7 +8,7 @@
 #include "Vector.hpp"
 #include <limits>
 #include <array>
-
+using std::swap;
 class Bounds3
 {
   public:
@@ -96,6 +96,32 @@ inline bool Bounds3::IntersectP(const Ray& ray, const Vector3f& invDir,
     // invDir: ray direction(x,y,z), invDir=(1.0/x,1.0/y,1.0/z), use this because Multiply is faster that Division
     // dirIsNeg: ray direction(x,y,z), dirIsNeg=[int(x>0),int(y>0),int(z>0)], use this to simplify your logic
     // TODO test if ray bound intersects
+    double in_x,in_y,in_z;
+    double out_x,out_y,out_z;
+    in_x=(pMin.x-ray.origin.x)*invDir[0];
+    out_x=(pMax.x-ray.origin.x)*invDir[0];
+    
+    in_y=(pMin.y-ray.origin.y)*invDir[1];
+    out_y=(pMax.y-ray.origin.y)*invDir[1];
+    
+    in_z=(pMin.z-ray.origin.z)*invDir[2];
+    out_z=(pMax.z-ray.origin.z)*invDir[2];
+    
+    //swap if direction is reverse
+    if(!dirIsNeg[0]){
+        swap(in_x,out_x);
+    }
+    if(!dirIsNeg[1])
+        swap(in_y,out_y);
+    if(!dirIsNeg[2])
+        swap(in_z,out_z);
+    
+    double in_time=std::max(in_x,std::max(in_y,in_z));
+    double out_time=std::min(out_x,std::min(out_y,out_z));
+    
+    if(in_time<=out_time&&out_time>=0)
+        return true;
+    return false;
 
 }
 

@@ -1,0 +1,4 @@
+1.Never intersect light and the visulization of intersection is abnormal.
+answer:when triangles'num is few,the bounding box may just a slice,so when t_enter=t_exit,it also means instersection happened.
+2.too bright and too many noisy points.
+answer:move the origin point of the ray  along the direction otherwise will happen self intersection.
